@@ -6,21 +6,37 @@ body
 
 html
 {
-	background-image: url("thumb-1920-733864.png");
+	background-image: url("wallpaper.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
-	font-size: 14px;
+	background-height: 100vh;
+	font-size: 12px;
+}
+
+.w40
+{
+	width: 50%
+}
+
+.wm
+{
+	width: 7%
 }
 
 .window
 {
 	padding: 0.3%;
 	background-color: rgba(255, 65, 86, 0.25);
-	width: 600px;
 	border: 1px solid black;
 	border-radius: 5px;
 	margin: 1%;
-	backdrop-filter: blur(30px);
+	backdrop-filter: blur(10px);
+	transition: 0.2s;
+}
+
+.window:hover
+{
+	background-color: rgba(255, 65, 211, 0.25);
+	
 }
 
 .right
@@ -44,4 +60,15 @@ html
 .center
 {
 	text-align: center;
+}
+
+button
+{
+	background-color:#FAFAFA;
+	border: #000000 solid 1px;
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	font-size: 100%;
+	
 }
