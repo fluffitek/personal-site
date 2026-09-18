@@ -6,9 +6,11 @@ body
 
 html
 {
-	background-image: url("wallpaper.jpg");
-	background-repeat: no-repeat;
-	background-height: 100vh;
+	background: url("wallpaper.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 	font-size: 12px;
 }
 
@@ -19,9 +21,14 @@ html
 
 .wm
 {
-	width: 7%
+	width: 7vw;
 }
 
+.slideshow
+{
+	width: 45%;
+	height: 45%;
+}
 .window
 {
 	padding: 0.3%;
@@ -71,4 +78,10 @@ button
 	height: 30px;
 	font-size: 100%;
 	
+}
+
+.konata
+{
+	width: 100%;
+	height: 100%;
 }
